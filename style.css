@@ -1,0 +1,115 @@
+html,
+body {
+ 
+  background-image: url(https://thumbs.gfycat.com/InfamousJollyArrowcrab-size_restricted.gif);
+  text-align: center;
+  font-family:"times new roman", times, serif;
+  min-width: 400px;
+}
+
+header {
+  font-size: 7em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#form-outer {
+  background-color: rgba(195, 236, 199, 0.986);
+  margin: 0 auto;
+  border-radius: 50px;
+  width: 80%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  box-shadow: 10px 5px 5px rgb(0, 255, 221);
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#userAge {
+  width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  background-color:rgb(0, 255, 221);
+  border-radius: 4px;
+  color: black;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
